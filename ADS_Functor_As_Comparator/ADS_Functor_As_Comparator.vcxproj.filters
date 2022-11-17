@@ -32,7 +32,7 @@
     <ClInclude Include="Comparator.h">
       <Filter>Header Files\Controller</Filter>
     </ClInclude>
-    <ClInclude Include="CarComparator.h">
+    <ClInclude Include="CarMakeComparator.h">
       <Filter>Header Files\Controller</Filter>
     </ClInclude>
     <ClInclude Include="BinaryTree.h">
@@ -41,7 +41,10 @@
     <ClInclude Include="Node.h">
       <Filter>Header Files\Model</Filter>
     </ClInclude>
-    <ClInclude Include="IntComparator.h">
+    <ClInclude Include="NumericComparator.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="StringLengthComparator.h">
       <Filter>Header Files\Controller</Filter>
     </ClInclude>
   </ItemGroup>

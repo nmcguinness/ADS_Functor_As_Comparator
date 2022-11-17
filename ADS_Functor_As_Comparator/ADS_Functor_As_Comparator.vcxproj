@@ -132,10 +132,11 @@
   <ItemGroup>
     <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="Car.h" />
-    <ClInclude Include="CarComparator.h" />
+    <ClInclude Include="CarMakeComparator.h" />
     <ClInclude Include="Comparator.h" />
-    <ClInclude Include="IntComparator.h" />
+    <ClInclude Include="NumericComparator.h" />
     <ClInclude Include="Node.h" />
+    <ClInclude Include="StringLengthComparator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

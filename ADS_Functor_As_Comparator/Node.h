@@ -3,15 +3,17 @@
 template <typename T>
 class Node {
 	T data;
-	Node* pLeft = nullptr;
-	Node* pRight = nullptr;
-	bool hasData = false;
+	Node* pLeft;
+	Node* pRight;
+	bool hasData;
 
 public:
 	Node() {
 	}
 	Node(T data) {
+		this->pLeft = this->pRight = nullptr;
 		this->data = data;
+		this->hasData = true;
 	}
 	Node<T>* getLeft() const
 	{

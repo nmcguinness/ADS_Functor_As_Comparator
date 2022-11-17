@@ -10,6 +10,11 @@ class Comparator
 {
 public:
 
-	virtual bool operator()(T lhs, T rhs) { return false; }
-	virtual bool isLessThan(T lhs, T rhs) { return false; }
+	/// <summary>
+	/// Method which will be overridden in child class (e.g. StringLengthComparator)
+	/// </summary>
+	/// <param name="lhs"></param>
+	/// <param name="rhs"></param>
+	/// <returns>True is lhs is less than rhs </returns>
+	virtual bool compare(T lhs, T rhs) { return false; }
 };
